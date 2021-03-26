@@ -1,0 +1,81 @@
+body{
+	margin:0px;
+	background-color: rgb(240, 240, 240);
+}
+
+.banner{
+	background-image: linear-gradient(90deg, rgba(2,0,36,1) 0.4%, rgba(9,121,31,0.1407913507199755) 0.4%), url("football.jpg");
+	height: 40vh;
+	background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.button-blue{
+	color: white;
+	text-decoration: none;
+	background-color: red;
+	padding: 16px;
+	border-radius: 7px;
+	font-family: 'Arial', sans-serif;
+	display: block;
+	width: 150px;
+	margin: 16px auto;
+	background-color: white
+  	border: 2px solid white;
+  	transition: 1s;
+}
+
+.button-blue:hover{
+	background-color: black;
+  	color: white;
+  	transition: 1s;
+}
+
+.banner h1, .banner h2 {
+	color: white;
+	text-align: center;
+
+}
+
+img{
+	height: 70px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 25px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.card{
+	background-color: white;
+	width: 225px;
+	text-align: center;
+	padding: 16px
+	border-radius: 16px;
+	box-shadow: 1px 1px 1px;
+	border-radius: 20px;
+
+}
+
+.container {
+    width: 980px;
+    margin: 24px auto;
+}
+.footer {
+    background-color: #ff0000;
+    color: white;
+    padding: 24px 0px;
+    text-align: center;
+   
+}
+.footer-logo li {
+    display: inline;
+}
+.fab {
+	padding: 15;
+	font-size: 50px;
+	color: white;
+}
